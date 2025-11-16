@@ -8,7 +8,7 @@ app.use(cors()); // default: Access-Control-Allow-Origin: *
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello from Express on Vercel!");
+  res.send("Hi from Express on Vercel!");
 });
 
 export default app;

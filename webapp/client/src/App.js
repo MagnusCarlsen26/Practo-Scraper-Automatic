@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App" >
-      {`server status: ${serverStatus}`}
+      {`server status : ${serverStatus}`}
     </div >
   );
 }
